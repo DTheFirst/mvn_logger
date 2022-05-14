@@ -8,7 +8,9 @@ public class Main {
     static final Logger rootLogger = LogManager.getRootLogger();
 
     public static void main(String[] args) {
-
+        
+        System.out.println("hello!");
+        
         rootLogger.info("info message");
 
         // debug

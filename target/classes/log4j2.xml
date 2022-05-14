@@ -27,7 +27,7 @@
     </Appenders>
     <Loggers>
         <Root level="all">
-            <AppenderRef ref="${appender-name}"/> 
+            <AppenderRef ref="FILE"/> 
         </Root>
     </Loggers>
     
